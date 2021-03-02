@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+body > * {
+    padding: 20px;
+}
+
+header {
+    background-color: #BD4D4D;
+}
+
+main {
+    background-color: #33475B;
+}
+
+main > p {
+    margin: 0;
+}
+
+/* Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ADD YOUR CODE BELOW */
+
+@media screen and (min-width: 600px) {
+    body {
+        flex-direction: row;
+    }
+    header {
+        flex: 1;
+    }
+    main {
+        flex:4;
+    }
+    }
